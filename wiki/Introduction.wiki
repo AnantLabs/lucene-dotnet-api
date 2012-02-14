@@ -1,5 +1,5 @@
+#summary Introduction to The Hammer
 #labels introduction
-#Introduction to the project
 
 == Introduction ==
 This Lucene.NET API has been codenamed The Hammer. It's purpose is to create a friendly, easy-to-use, intuitive wrapper around Lucene.NET 2.9. 
