@@ -4,7 +4,7 @@
 == Introduction ==
 This Lucene.NET API has been codenamed The Hammer. It's purpose is to create a friendly, easy-to-use, intuitive wrapper around Lucene.NET 2.9. 
 
-== Why built a wrapper around Lucene? ==
+== But why built a wrapper around Lucene? ==
 I fell in love with Lucene the first time I used it but over time realized that unless you understand the big picture of what it does and how it works that its actually kind of difficult to consume. That's when I knew it was time to create a wrapper for normal everyday developers who just need to implement a search solution on the fly and can't dedicate hours to understand how and why it works. They need it to JUST WORK. If that's you, then this is your solution.
 
 == Other considerations ==
