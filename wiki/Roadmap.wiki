@@ -1,4 +1,4 @@
-#summary Details where the project is and where it's heading
+#summary Details where the project is and where it's going
 #labels Phase-Requirements,Phase-Design
 
 == Project Roadmap ==
