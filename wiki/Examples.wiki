@@ -1,4 +1,5 @@
 #summary Examples about how to use the consume the current library
+#labels Featured,Examples
 
 == Overview ==
 True to its core mission, consuming The Hammer (codename for this project) is a breeze. The following page details several common scenarios and how to handle them. 
