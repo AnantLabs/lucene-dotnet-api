@@ -3,6 +3,7 @@
 == Overview ==
 True to its core mission, consuming The Hammer (codename for this project) is a breeze. The following page details several common scenarios and how to handle them. 
 
+
 === Scenario 1: Searching A Single Index ===
 Practically the most common scenario. This particular case involves opening an index named Forms and searching for all forms submitted by a particular user within a given year.
 
@@ -23,6 +24,7 @@ Within the code:
 
      IEnumerable<SearchResult> results = searcher.Search(query, totalResultsRequested: 15);
 }}}
+
 
 === Scenario 2: Writing To An Index ===
 Another extremely common scenario. This example case involves creating a new index and writing several Forms objects to it
@@ -68,6 +70,7 @@ Just for reference, here's the dummy Form class
 
     }
 }}}
+
 
 === Scenario 3: Reading From An Index ===
 Coming soon...
