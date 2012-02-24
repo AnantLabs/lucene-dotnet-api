@@ -1,4 +1,5 @@
 #summary How to build Lucene queries using QueryBuilder
+#labels Featured
 
 == Overview ==
 This page is all about building queries with The Hammer. It reviews the Lucene.NET query syntax and how to built those queries using strings or with the QueryBuilder object. 
