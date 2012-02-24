@@ -74,4 +74,17 @@ Just for reference, here's the dummy Form class
 
 
 === Scenario 3: Reading From An Index ===
-Coming soon...
+The final common scenario, reading directly from the index. The reader allows you to read the top N documents, a single document by its document id, or all documents. 
+
+Within the code:
+ * First we create the index, this call is synonymous to _Index.Create(new DirectoryInfo("C:\\Code\\Indexes\\Forms"))_ which is create OR LOAD an index
+ * We the get the reader from the index in a using statement. The reader optionally takes a bool so you can open it in readonly mode. 
+ * Finally, we grab the first 15 rows that are contained within the index and dispose of the reader
+
+{{{
+    IIndex index = IndexHelper.LoadIndex(new DirectoryInfo("C:\\Code\\Indexes\\Forms"));
+
+    using (IndexReader reader = index.GetReader()) {
+        reader.ReadDocuments(topNResults: 15);
+    }
+}}}
